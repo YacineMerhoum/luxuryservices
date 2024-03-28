@@ -1,0 +1,109 @@
+<div class="container">
+    <div class="row">
+        <h3 class="text-extrabold">Your personal informations</h3>
+
+        {{ form_start(form) }}
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.gender)}}
+            {{form_label(form.gender)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.first_name)}}
+            {{form_label(form.first_name)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.last_name)}}
+            {{form_label(form.last_name)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.adress)}}
+            {{form_label(form.adress)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.country)}}
+            {{form_label(form.country)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.nationality)}}
+            {{form_label(form.nationality)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.curriculum_vitae)}}
+           
+            {{form_label(form.curriculum_vitae)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.profil_picture)}}
+            {{form_label(form.profil_picture)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.current_location)}}
+            {{form_label(form.current_location)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.date_of_birth)}}
+            {{form_label(form.date_of_birth)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.email)}}
+            {{form_label(form.email)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.description)}}
+            {{form_label(form.description)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.notes)}}
+            {{form_label(form.notes)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.date_created)}}
+            {{form_label(form.date_created)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+           {{form_widget(form.files)}}
+            {{form_label(form.files)}}
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="input-field">
+
+         <button class="btn btn-block btn-lg gradient secondary waves-effect waves-light">{{ button_label|default('Save') }}
+        </button>
+        </div>
+        </div>
+        {{ form_end(form) }}
+        
+    </div>
+</div>
+        
